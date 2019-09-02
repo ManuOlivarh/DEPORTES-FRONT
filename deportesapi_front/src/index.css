@@ -1,0 +1,12 @@
+body{
+
+    margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #778beb, #55efc4, #786fa6, #63cdda);
+	background-size: 400% 400%;
+
+
+}
