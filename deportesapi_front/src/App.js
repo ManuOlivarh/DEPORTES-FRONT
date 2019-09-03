@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 import './bootstrap.min.css'
 import Header from './components/Header-form';
 import FormularioGeneral from './components/FormularioGeneral';
-
+import Nav from './components/Nav';
 
 
 
@@ -14,6 +14,12 @@ class App extends Component {
     return (
 
       <div className="bg-image">
+
+      <div>
+
+      <Nav/>
+      </div>
+
       <div className="container">
         <Header titulo='CREACION DE EVENTOS DEPORTIVOS'/>
 
