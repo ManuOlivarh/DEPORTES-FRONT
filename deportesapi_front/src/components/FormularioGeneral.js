@@ -11,26 +11,25 @@ class FormularioGeneral extends Component {
                    
                     <form className="form-group">
                     
-                    <label>Ingrese el tipo de evento:</label>
+                    <label>Ingrese el nombre del de evento:</label>
                     <input
                     type="text"
                     className="form-control"
                     placeholder="Evento Deportivo"
                     name="Evento"
                     />
-                     <label>lorem impsum</label>
+                     <label className="mt-3">Ingrese la fecha:</label>
                     <input
-                    type="text"
+                    type="date"
                     className="form-control"
-                    placeholder="Evento Deportivo"
-                    name="Evento"
+                    name="fecha"
                     />
-                     <label>lorem impsum</label>
+                     <label className="mt-3">Lorem ipsum dolor sit amet</label>
                     <input
                     type="text"
                     className="form-control"
-                    placeholder="Evento Deportivo"
-                    name="Evento"
+                    placeholder="consectetur adipiscing elit"
+                    name="input-libre"
                     />
                     </form>
                 </div>
