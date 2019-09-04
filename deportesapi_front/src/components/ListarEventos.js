@@ -9,13 +9,14 @@ class ListarEventos extends Component {
             <div>
                 
              <div className="crud-wrap">
-                <div className="container mb-5">
+             <h2 className="mb-3">Manejar Eventos</h2>
+                <div className="container">
                     <input type="text" className="form-control" placeholder="Búsqueda" name="search"/>
                   
    
                     <div className="button-box">
                     <button type="button" id="but" className="btn"><span class="fa fa-plus" ></span> Crear</button>
-                <button type="button" id="but" className="btn" ><span class="fa fa-trash-o" ></span> Eliminar</button>
+                     <button type="button" id="but" className="btn" ><span class="fa fa-trash-o" ></span> Eliminar</button>
                     
                     </div>
             </div>
