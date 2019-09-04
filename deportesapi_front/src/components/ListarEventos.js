@@ -9,33 +9,31 @@ class ListarEventos extends Component {
             <div>
                 
              <div className="crud-wrap">
-            <div className="col-md-12">
-                <div className="">
+                <div className="container mb-5">
                     <input type="text" className="form-control" placeholder="Búsqueda" name="search"/>
                   
    
-                    <div className="buttons-area">
-   
-                    <button type="button" className="btn btn-info" ><span className="image-button"><i className="fas fa-plus-circle"></i></span></button>
-                    <button type="button" className="btn btn-info"><span></span></button>
-                </div>
+                    <div className="button-box">
+                    <button type="button" id="but" className="btn"><span class="fa fa-plus" ></span> Crear</button>
+                <button type="button" id="but" className="btn" ><span class="fa fa-trash-o" ></span> Eliminar</button>
+                    
+                    </div>
             </div>
+            <div className="container-table"> 
             <table className="table">
                 <thead>
                     <th><input type="checkbox"/></th>
                     <th>ID</th>
-                    <th>Name</th>
-                    <th>Gender</th>
-                    <th>Birthday</th>
-                    <th>Phone</th>
-                    <th>Created Time</th>
+                    <th>Deportes</th>
+                    <th>Version</th>
+                    <th>Fecha</th>
+                    <th></th>
                     <th></th>
                     <th></th>
                 </thead>
                 <tbody>
                   
                         <td><input type="checkbox"/></td>
-                        <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -50,11 +48,11 @@ class ListarEventos extends Component {
     
                 </tbody>
             </table>
-       
+            </div>
         </div>
 
             </div>
-            </div>
+           
         )
     }
 }
