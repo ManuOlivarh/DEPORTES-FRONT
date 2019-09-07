@@ -2,7 +2,7 @@ body {
   background-color: #ffffff; }
 
 .crud-wrap {
-  background: #ffffff;
+  background: #ecf0f1;
   width: 800px;
   padding: 3%;
   border-radius: 5px;
@@ -20,10 +20,12 @@ body {
   background: #9c88ff;
   border-radius: 5px;
   margin-left: 10px;
-  width: 100px;
+  width: 80px;
+  height: 40px;
   right: 20px;
   font-size: 10pt;
-  position: relative; }
+  position: relative;
+  padding: 5px 5px 5px 5px; }
 
 .form-control {
   font-size: 20pt; }
@@ -40,7 +42,7 @@ body {
 
 h2 {
   text-align: center;
-  font-weight: 35;
+  font-weight: 50;
   font-size: 200;
   color: #34495e; }
 
