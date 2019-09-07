@@ -1,6 +1,5 @@
 body {
-  background-image: url(../src/images/ball-background.jpg);
-  background-size: cover; }
+  background-color: #ffffff; }
 
 .crud-wrap {
   background: #ffffff;
